@@ -1,0 +1,94 @@
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 600px) {
+
+    .container {
+      width: 100%;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://wallpapercave.com/wp/wp5824474.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: rgba(233, 30, 99, 0.8);
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0.5em 0 0;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+section.song {
+    background-color: #fff;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section.song h2 {
+    margin: 0 0 0.5em;
+    font-size: 1.5em;
+    color: #e91e63;
+}
+
+section.song p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
